@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23751FAC23290C5B00E91922 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23751FAB23290C5B00E91922 /* DiscoverViewController.swift */; };
+		23751FAE23290F4100E91922 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23751FAD23290F4100E91922 /* Article.swift */; };
+		23751FB02329153300E91922 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23751FAF2329153300E91922 /* ArticlesTableViewController.swift */; };
+		23751FB22329161600E91922 /* ArticleCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23751FB12329161600E91922 /* ArticleCellTableViewCell.swift */; };
 		23DC413E2316566300CC3CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC413D2316566300CC3CEC /* AppDelegate.swift */; };
 		23DC41402316566300CC3CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC413F2316566300CC3CEC /* ViewController.swift */; };
 		23DC41432316566300CC3CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DC41412316566300CC3CEC /* Main.storyboard */; };
 		23DC41452316566900CC3CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DC41442316566900CC3CEC /* Assets.xcassets */; };
 		23DC41482316566900CC3CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DC41462316566900CC3CEC /* LaunchScreen.storyboard */; };
+		23DC4154231FD52300CC3CEC /* Bully.ID Icon App.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23DC4153231FD52300CC3CEC /* Bully.ID Icon App.jpg */; };
+		23DC4156231FDA6700CC3CEC /* YourSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC4155231FDA6700CC3CEC /* YourSessionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23751FAB23290C5B00E91922 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		23751FAD23290F4100E91922 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		23751FAF2329153300E91922 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
+		23751FB12329161600E91922 /* ArticleCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCellTableViewCell.swift; sourceTree = "<group>"; };
 		23DC413A2316566300CC3CEC /* Bully.ID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bully.ID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DC413D2316566300CC3CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23DC413F2316566300CC3CEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		23DC41442316566900CC3CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23DC41472316566900CC3CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23DC41492316566900CC3CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DC4153231FD52300CC3CEC /* Bully.ID Icon App.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bully.ID Icon App.jpg"; path = "../../Bully.ID Icon App.jpg"; sourceTree = "<group>"; };
+		23DC4155231FDA6700CC3CEC /* YourSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourSessionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,16 @@
 			children = (
 				23DC413D2316566300CC3CEC /* AppDelegate.swift */,
 				23DC413F2316566300CC3CEC /* ViewController.swift */,
+				23DC41462316566900CC3CEC /* LaunchScreen.storyboard */,
 				23DC41412316566300CC3CEC /* Main.storyboard */,
 				23DC41442316566900CC3CEC /* Assets.xcassets */,
-				23DC41462316566900CC3CEC /* LaunchScreen.storyboard */,
+				23751FAB23290C5B00E91922 /* DiscoverViewController.swift */,
+				23751FAD23290F4100E91922 /* Article.swift */,
+				23751FB12329161600E91922 /* ArticleCellTableViewCell.swift */,
+				23751FAF2329153300E91922 /* ArticlesTableViewController.swift */,
+				23DC4155231FDA6700CC3CEC /* YourSessionViewController.swift */,
 				23DC41492316566900CC3CEC /* Info.plist */,
+				23DC4153231FD52300CC3CEC /* Bully.ID Icon App.jpg */,
 			);
 			path = Bully.ID;
 			sourceTree = "<group>";
@@ -123,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23DC41482316566900CC3CEC /* LaunchScreen.storyboard in Resources */,
+				23DC4154231FD52300CC3CEC /* Bully.ID Icon App.jpg in Resources */,
 				23DC41452316566900CC3CEC /* Assets.xcassets in Resources */,
 				23DC41432316566300CC3CEC /* Main.storyboard in Resources */,
 			);
@@ -135,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23751FB02329153300E91922 /* ArticlesTableViewController.swift in Sources */,
 				23DC41402316566300CC3CEC /* ViewController.swift in Sources */,
+				23751FAC23290C5B00E91922 /* DiscoverViewController.swift in Sources */,
 				23DC413E2316566300CC3CEC /* AppDelegate.swift in Sources */,
+				23751FB22329161600E91922 /* ArticleCellTableViewCell.swift in Sources */,
+				23DC4156231FDA6700CC3CEC /* YourSessionViewController.swift in Sources */,
+				23751FAE23290F4100E91922 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
