@@ -10,13 +10,20 @@ import Foundation
 import UIKit
 
 class Article {
+    var date : String
     var title : String
     var description : String
     var image : UIImage
+    var type : Int
     
-    init(title : String, description : String, image: UIImage) {
+    // 0 = article
+    // 1 = event
+    
+    init(title : String, description : String, image: UIImage,date : String, type: Int) {
         self.title = title
         self.description = description
         self.image = image
+        self.date = date
+        self.type = type
     }
 }

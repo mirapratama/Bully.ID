@@ -10,13 +10,14 @@ import UIKit
 
 class ArticleCellTableViewCell: UITableViewCell {
     
-    @IBOutlet var bg: UIImageView!
-    @IBOutlet weak var whatIsCyberbullying: UILabel!
-    @IBOutlet weak var articleDescription: UILabel!
+    
+    @IBOutlet weak var articleImage: UIImageView!
+    @IBOutlet var title: UILabel!
+    @IBOutlet var articleDescription: UILabel!
     
     func setArticle(article:Article){
-        bg.image = article.image
-        whatIsCyberbullying.text = article.title
+        articleImage.image = article.image
+        title.text = article.title
         articleDescription.text = article.description
     }
     

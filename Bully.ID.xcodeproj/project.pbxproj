@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		232874E823323F3C001C227C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232874E723323F3C001C227C /* SignUpViewController.swift */; };
+		232874EA23323F73001C227C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232874E923323F73001C227C /* SignInViewController.swift */; };
+		232874EC23323F94001C227C /* FirstThingsFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232874EB23323F94001C227C /* FirstThingsFirstViewController.swift */; };
+		232874EE23323FB2001C227C /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232874ED23323FB2001C227C /* ForgotPasswordViewController.swift */; };
+		232874F02332417F001C227C /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232874EF2332417F001C227C /* ViewHelper.swift */; };
+		232874F223324F81001C227C /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232874F123324F81001C227C /* ArticleDetailViewController.swift */; };
+		232874F423325468001C227C /* EventCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232874F323325468001C227C /* EventCellTableViewCell.swift */; };
 		23751FAC23290C5B00E91922 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23751FAB23290C5B00E91922 /* DiscoverViewController.swift */; };
 		23751FAE23290F4100E91922 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23751FAD23290F4100E91922 /* Article.swift */; };
-		23751FB02329153300E91922 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23751FAF2329153300E91922 /* ArticlesTableViewController.swift */; };
 		23751FB22329161600E91922 /* ArticleCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23751FB12329161600E91922 /* ArticleCellTableViewCell.swift */; };
 		23DC413E2316566300CC3CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC413D2316566300CC3CEC /* AppDelegate.swift */; };
 		23DC41402316566300CC3CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC413F2316566300CC3CEC /* ViewController.swift */; };
@@ -21,9 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		232874E723323F3C001C227C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		232874E923323F73001C227C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		232874EB23323F94001C227C /* FirstThingsFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstThingsFirstViewController.swift; sourceTree = "<group>"; };
+		232874ED23323FB2001C227C /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		232874EF2332417F001C227C /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		232874F123324F81001C227C /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		232874F323325468001C227C /* EventCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCellTableViewCell.swift; sourceTree = "<group>"; };
 		23751FAB23290C5B00E91922 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		23751FAD23290F4100E91922 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		23751FAF2329153300E91922 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
 		23751FB12329161600E91922 /* ArticleCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCellTableViewCell.swift; sourceTree = "<group>"; };
 		23DC413A2316566300CC3CEC /* Bully.ID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bully.ID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DC413D2316566300CC3CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,11 +82,17 @@
 				23DC413F2316566300CC3CEC /* ViewController.swift */,
 				23DC41462316566900CC3CEC /* LaunchScreen.storyboard */,
 				23DC41412316566300CC3CEC /* Main.storyboard */,
+				232874F323325468001C227C /* EventCellTableViewCell.swift */,
+				232874F123324F81001C227C /* ArticleDetailViewController.swift */,
+				232874EB23323F94001C227C /* FirstThingsFirstViewController.swift */,
+				232874ED23323FB2001C227C /* ForgotPasswordViewController.swift */,
+				232874E923323F73001C227C /* SignInViewController.swift */,
+				232874EF2332417F001C227C /* ViewHelper.swift */,
+				232874E723323F3C001C227C /* SignUpViewController.swift */,
 				23DC41442316566900CC3CEC /* Assets.xcassets */,
 				23751FAB23290C5B00E91922 /* DiscoverViewController.swift */,
 				23751FAD23290F4100E91922 /* Article.swift */,
 				23751FB12329161600E91922 /* ArticleCellTableViewCell.swift */,
-				23751FAF2329153300E91922 /* ArticlesTableViewController.swift */,
 				23DC4155231FDA6700CC3CEC /* YourSessionViewController.swift */,
 				23DC41492316566900CC3CEC /* Info.plist */,
 				23DC4153231FD52300CC3CEC /* Bully.ID Icon App.jpg */,
@@ -154,12 +172,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23751FB02329153300E91922 /* ArticlesTableViewController.swift in Sources */,
 				23DC41402316566300CC3CEC /* ViewController.swift in Sources */,
+				232874EE23323FB2001C227C /* ForgotPasswordViewController.swift in Sources */,
+				232874F223324F81001C227C /* ArticleDetailViewController.swift in Sources */,
+				232874E823323F3C001C227C /* SignUpViewController.swift in Sources */,
 				23751FAC23290C5B00E91922 /* DiscoverViewController.swift in Sources */,
+				232874F423325468001C227C /* EventCellTableViewCell.swift in Sources */,
 				23DC413E2316566300CC3CEC /* AppDelegate.swift in Sources */,
+				232874EC23323F94001C227C /* FirstThingsFirstViewController.swift in Sources */,
+				232874EA23323F73001C227C /* SignInViewController.swift in Sources */,
 				23751FB22329161600E91922 /* ArticleCellTableViewCell.swift in Sources */,
 				23DC4156231FDA6700CC3CEC /* YourSessionViewController.swift in Sources */,
+				232874F02332417F001C227C /* ViewHelper.swift in Sources */,
 				23751FAE23290F4100E91922 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

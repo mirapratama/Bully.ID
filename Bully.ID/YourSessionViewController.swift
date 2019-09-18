@@ -47,6 +47,8 @@ class YourSessionViewController: UIViewController {
         }
 
         }
-        
+    override func viewDidAppear(_ animated: Bool) {
+        ViewHelper.hide(navigationController: navigationController)
+    }
         
     }
